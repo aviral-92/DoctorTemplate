@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>HealthEra Home Style One</title>
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/revolution-slider.css" rel="stylesheet">
@@ -15,6 +16,27 @@
     <link href="css/responsive.css" rel="stylesheet">
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+    <style>
+        input[type=text] {
+            width: 130px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+        
+        input[type=text]:focus {
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -63,30 +85,35 @@
                         <div class="pull-right upper-right clearfix">
 
                             <!--Info Box-->
-                            <div class="upper-column info-box">
+                            <!--<div class="upper-column info-box">
                                 <div class="icon-box"><span class="flaticon-placeholder"></span></div>
                                 <ul>
                                     <li><strong>Our Location</strong></li>
                                     <li>06 DownStreet, Australia</li>
                                 </ul>
-                            </div>
+                            </div>-->
 
                             <!--Info Box-->
-                            <div class="upper-column info-box">
+                            <!--<div class="upper-column info-box">
                                 <div class="icon-box"><span class="flaticon-time-management"></span></div>
                                 <ul>
                                     <li><strong>working hours</strong></li>
                                     <li>Mon - Fri : 9:00 Am - 7:00 Pm</li>
                                 </ul>
-                            </div>
+                            </div>-->
 
                             <!--Info Box-->
-                            <div class="upper-column info-box">
+                            <!--<div class="upper-column info-box">
                                 <div class="link-btn">
                                     <a href="#" class="theme-btn btn-style-one">get a quote</a>
                                 </div>
-                            </div>
-
+                            </div>-->
+                            <form>
+                                <input type="text" name="search" placeholder="Search..">
+                            </form>
+                            <!--<a href="#" class="btn btn-info btn-lg">
+                                <span class="glyphicon glyphicon-search"></span> Search
+                            </a>-->
                         </div>
 
                     </div>
